@@ -1,0 +1,33 @@
+:root {
+  --main-bg-color: bisque;
+  --main-text-color: #343434;
+
+  --light-bg: chartreuse;
+  --pad: 30px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  background-color: var(--main-bg-color);
+  color: var(----main-text-color);
+  padding: var(--pad);
+}
+
+.features {
+  background-color: chartreuse;
+  padding: var(--pad);
+}
+
+.prices {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: var(--pad);
+}
+
+.testemonal {
+  background-color: chartreuse;
+  padding: var(--pad);
+}

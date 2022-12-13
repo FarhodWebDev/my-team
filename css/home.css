@@ -1,0 +1,150 @@
+.home.hero {
+  background: url('../images/svg/hero-bg-left.svg'),
+    url('../images/svg/hero-bg-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: left -100px top 20%, right 16.5rem bottom -100px;
+  padding-top: 5.6rem;
+  padding-bottom: 25rem;
+}
+
+.home .hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home .hero__title--wrapper {
+  width: 635px;
+}
+
+.home .hero__info {
+  width: 445px;
+}
+
+.home .hero__divider {
+  margin-bottom: 7.9rem;
+}
+
+.home .site-divider {
+  width: 50px;
+  height: 4px;
+  background-color: var(--secondary-rapture-blue);
+  border: 0;
+}
+
+.home .hero__description {
+  line-height: var(--main-font-line-height-2);
+}
+
+/* FEATURES */
+
+.features {
+  background-color: var(--secondary-sacramento-green-color);
+  background-image: url('../images/svg/features-right-bottom.svg');
+  padding: 14rem 0;
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+
+.features__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__divider--title {
+  width: 445px;
+}
+
+.features__divider {
+  background-color: var(--primary-light-coral-color);
+  margin-bottom: 5.4rem;
+}
+
+
+.features__list--wrapper {
+  margin-top: 5.4rem;
+  width: 540px;
+}
+
+
+.features__item {
+  display: flex;
+  column-gap: 23px;
+}
+
+.features__item:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+
+.features__item--title {
+  color: var(--primary-light-coral-color);
+  font-size: var(--main-font-size-1);
+  margin-bottom: 1.6rem;
+}
+
+.features__item--description {
+  font-size: var(--main-font-size-2);
+  opacity: 0.8;
+}
+
+.review {
+  background-image: url('../images/svg/reviews-bg-left.svg'), url('../images/svg/reviews-bg-right.svg');
+  background-repeat: no-repeat;
+  background-position: top 0 left 0, bottom 0 right 0;
+  padding: 14rem 0;
+  background-color: var(--secondary-deep-green);
+}
+
+.review__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review__title {
+  text-align: center;
+  margin-bottom: 5.6rem;
+}
+
+
+.review__people {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  text-align: center;
+}
+
+.people__person {
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.6rem;
+  background-image: url('../images/svg/“.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.person__text {
+  font-size: var(--main-font-size-2);
+  line-height: var(--main-font-height-2);
+  opacity: 1;
+  margin-bottom: 2.4rem;
+}
+
+.person__name {
+  color: var(--secondary-rapture-blue);
+  margin-bottom: 0.2rem;
+}
+
+.person__job {
+  font-size: 1.3rem;
+  line-height: 1.38;
+  margin-bottom: 3.2rem;
+}
+
+.person__img img {
+  display: inline;
+}
