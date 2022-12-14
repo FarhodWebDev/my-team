@@ -1,0 +1,139 @@
+/* HERO */
+
+.about.hero {
+  padding-top: 5.7rem;
+  padding-bottom: 12rem;
+}
+
+.about .hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.about .hero__title {
+  font-size: var(--heading-h1-size-small);
+  line-height: var(--heading-h1-line-height-small);
+}
+
+.about .hero__info {
+  width: 680px;
+}
+
+.about .hero__divider {
+  background-color: var(--primary-light-coral-color);
+  margin-bottom: 4rem;
+}
+
+.about .hero__description {
+  font-size: var(--main-font-size-1);
+  line-height: var(--main-font-line-height-1);
+}
+
+
+.meet {
+  padding: 12rem 0;
+  background-color: var(--secondary-deep-green);
+  background-image: url('../images/svg/left_top.svg'), url('../images/svg/right_bottom.svg');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+
+.meet__container {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  align-items: center;
+}
+
+.meet__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem 3rem;
+}
+
+.list__item {
+  width: 345px;
+  height: 253px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--secondary-sacramento-green-color);
+  padding-top: 3.2rem;
+}
+
+.list__item-img {
+  margin-bottom: 1.6rem;
+}
+
+.list__item-img img {
+  border-radius: 50%;
+}
+
+.list__item-info {
+  width: 254px;
+}
+
+.list__item-title {
+  color: var(--secondary-rapture-blue);
+}
+
+.list__item-description {
+  font-size: var(--main-font-size-2);
+  line-height: var(--main-font-height-2);
+}
+
+.list__item-btn {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 88%;
+  border-radius: 50%;
+  padding: 0;
+  background-color: var(--primary-light-coral-color);
+}
+
+.list__item-btn--last_item {
+  background-color: var(--secondary-rapture-blue);
+}
+
+.list__item-messengers {
+  margin-top: 2.4rem;
+}
+
+.fa-solid {
+  color: var(--secondary-sacramento-green-color);
+}
+
+.fa-brands {
+  color: var(--primary-white-color);
+  margin: 0 0.8rem;
+}
+
+
+
+.clients {
+  padding: 14rem;
+  background-color: var(--secondary-sacramento-green-color);
+  background-image: url('../images/svg/clients-circle.svg');
+  background-repeat: no-repeat;
+}
+
+.clients__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+.clients__list {
+  display: flex;
+  gap: 8rem;
+}

@@ -25,13 +25,6 @@
   margin-bottom: 7.9rem;
 }
 
-.home .site-divider {
-  width: 50px;
-  height: 4px;
-  background-color: var(--secondary-rapture-blue);
-  border: 0;
-}
-
 .home .hero__description {
   line-height: var(--main-font-line-height-2);
 }

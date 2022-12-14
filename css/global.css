@@ -145,11 +145,15 @@ img {
   display: flex;
 }
 
+i {
+  color: var(--secondary-sacramento-green-color);
+}
+
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: var(--main-font-family);
+  font-family: var(--main-font-family), sans-serif;
   font-size: var(--main-font-size-1);
   font-weight: var(--main-font-weight);
   line-height: var(--main-font-line-height-2);
@@ -234,6 +238,13 @@ body {
 
 .btn:active {
   cursor: pointer;
+}
+
+.site-divider {
+  width: 50px;
+  height: 4px;
+  background-color: var(--secondary-rapture-blue);
+  border: 0;
 }
 
 /*-------------------- HEADER -------------------- */
