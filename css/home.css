@@ -139,7 +139,7 @@
   display: inline;
 }
 
-@media (max-width:768px) {
+@media (max-width:1150px) {
 
   .hero {
     background: url('../images/svg/hero-bg-bottom.svg');
