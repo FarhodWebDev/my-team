@@ -31,11 +31,22 @@
     <div class="header__container container">
       <!-- LOGO -->
       <a class="logo-link" href="./">
-        <img class="logo-link__image" src="./images/svg/myteam-logo.svg" alt="Myteam logo" width="160" height="40" />
+        <img class="logo-link__image" src="./images/svg/myteam-logo.svg" alt="MyTeam logo" />
       </a>
+
+      <!-- SITE-NAV SHOW BTN -->
+      <button class="sitenav__show">
+        <img src="./images/svg/sitenav-show.svg" alt="show button" class="sitenav__show-img">
+      </button>
 
       <!-- NAV -->
       <nav class="sitenav">
+
+        <!-- SITE-NAV CLOSE BTN -->
+        <button class="sitenav__closer">
+          <img src="./images/svg/site-closer.svg" alt="close button" class="sitenav__closer-img">
+        </button>
+
         <ul class="sitenav__list">
           <li class="sitenav__item">
             <a class="sitenav__link" href="./index.html">home</a>
@@ -44,9 +55,9 @@
             <a class="sitenav__link" href="./pages/about/">about</a>
           </li>
         </ul>
-      </nav>
 
-      <a class="header__btn btn btn-light" href="./pages/contact-us/">contact us</a>
+        <a class="sitenav__btn btn btn-light" href="./pages/contact-us/">contact us</a>
+      </nav>
     </div>
   </header>
 
@@ -58,7 +69,6 @@
         <div class="hero__title--wrapper">
           <h1 class="hero__title">
             Find the
-            <br />
             best
             <span class="text-primary">talent</span>
           </h1>
@@ -278,6 +288,8 @@
       </div>
     </section>
   </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
